@@ -3,7 +3,7 @@ name: Build APK from Specific Branch
 on:
   push:
     branches:
-      - your-branch-name    # change this to your branch
+      - feature/test    # change this to your branch
   workflow_dispatch:         # enables manual trigger from GitHub UI
 
 jobs:
