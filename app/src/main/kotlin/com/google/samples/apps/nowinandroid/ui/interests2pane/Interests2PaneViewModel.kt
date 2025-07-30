@@ -35,6 +35,12 @@ class Interests2PaneViewModel @Inject constructor(
 
 
 
+
+    //ajgsasa
+
+
+
+
     val route = savedStateHandle.toRoute<InterestsRoute>()
     val selectedTopicId: StateFlow<String?> = savedStateHandle.getStateFlow(
         key = TOPIC_ID_KEY,
